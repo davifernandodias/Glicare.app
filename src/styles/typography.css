@@ -1,0 +1,91 @@
+@layer components {
+  .headline-large-ga {
+    font-family: var(--font-roboto);
+    font-size: var(--headline-large-ga-size);
+    line-height: var(--headline-large-ga-line);
+    letter-spacing: var(--headline-large-ga-spacing);
+  }
+
+  .headline-medium-ga {
+    font-family: var(--font-roboto);
+    font-size: var(--headline-medium-ga-size);
+    line-height: var(--headline-medium-ga-line);
+    letter-spacing: var(--headline-medium-ga-spacing);
+  }
+
+  .headline-small-ga {
+    font-family: var(--font-roboto);
+    font-size: var(--headline-small-ga-size);
+    line-height: var(--headline-small-ga-line);
+    letter-spacing: var(--headline-small-ga-spacing);
+  }
+
+  .title-large-ga {
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: var(--title-large-ga-size);
+    line-height: var(--title-large-ga-line);
+    letter-spacing: var(--title-large-ga-spacing);
+  }
+
+  .title-medium-ga {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: var(--title-medium-ga-size);
+    line-height: var(--title-medium-ga-line);
+    letter-spacing: var(--title-medium-ga-spacing);
+  }
+
+  .title-small-ga {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: var(--title-small-ga-size);
+    line-height: var(--title-small-ga-line);
+    letter-spacing: var(--title-small-ga-spacing);
+  }
+
+  .label-large-ga {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: var(--label-large-ga-size);
+    line-height: var(--label-large-ga-line);
+    letter-spacing: var(--label-large-ga-spacing);
+  }
+
+  .label-medium-ga {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: var(--label-medium-ga-size);
+    line-height: var(--label-medium-ga-line);
+    letter-spacing: var(--label-medium-ga-spacing);
+  }
+
+  .label-small-ga {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: var(--label-small-ga-size);
+    line-height: var(--label-small-ga-line);
+    letter-spacing: var(--label-small-ga-spacing);
+  }
+
+  .body-large-ga {
+    font-family: var(--font-roboto);
+    font-size: var(--body-large-ga-size);
+    line-height: var(--body-large-ga-line);
+    letter-spacing: var(--body-large-ga-spacing);
+  }
+
+  .body-medium-ga {
+    font-family: var(--font-roboto);
+    font-size: var(--body-medium-ga-size);
+    line-height: var(--body-medium-ga-line);
+    letter-spacing: var(--body-medium-ga-spacing);
+  }
+
+  .body-small-ga {
+    font-family: var(--font-roboto);
+    font-size: var(--body-small-ga-size);
+    line-height: var(--body-small-ga-line);
+    letter-spacing: var(--body-small-ga-spacing);
+  }
+}
