@@ -1,0 +1,72 @@
+@theme {
+  /* Fontes */
+  --font-roboto: "Roboto", sans-serif;
+
+  /* Headline */
+  --headline-large-ga-size: 2rem; /* 32px */
+  --headline-large-ga-line: 2.5rem; /* 40px */
+  --headline-large-ga-spacing: 0;
+
+  --headline-medium-ga-size: 1.75rem; /* 28px */
+  --headline-medium-ga-line: 2.25rem; /* 36px */
+  --headline-medium-ga-spacing: 0;
+
+  --headline-small-ga-size: 1.5rem; /* 24px */
+  --headline-small-ga-line: 2rem; /* 32px */
+  --headline-small-ga-spacing: 0;
+
+  /* Title */
+  --title-large-ga-size: 1.375rem; /* 22px */
+  --title-large-ga-line: 1.75rem; /* 28px */
+  --title-large-ga-spacing: 0;
+
+  --title-medium-ga-size: 1rem; /* 16px */
+  --title-medium-ga-line: 1.5rem; /* 24px */
+  --title-medium-ga-spacing: 0.009375rem; /* 0.15px */
+
+  --title-small-ga-size: 0.875rem; /* 14px */
+  --title-small-ga-line: 1.25rem; /* 20px */
+  --title-small-ga-spacing: 0.00625rem; /* 0.1px */
+
+  /* Label */
+  --label-large-ga-size: 0.875rem; /* 14px */
+  --label-large-ga-line: 1.25rem; /* 20px */
+  --label-large-ga-spacing: 0.00625rem; /* 0.1px */
+
+  --label-medium-ga-size: 0.75rem; /* 12px */
+  --label-medium-ga-line: 1rem; /* 16px */
+  --label-medium-ga-spacing: 0.03125rem; /* 0.5px */
+
+  --label-small-ga-size: 0.6875rem; /* 11px */
+  --label-small-ga-line: 1rem; /* 16px */
+  --label-small-ga-spacing: 0.03125rem; /* 0.5px */
+
+  /* Body */
+  --body-large-ga-size: 1rem; /* 16px */
+  --body-large-ga-line: 1.5rem; /* 24px */
+  --body-large-ga-spacing: 0.03125rem; /* 0.5px */
+
+  --body-medium-ga-size: 0.875rem; /* 14px */
+  --body-medium-ga-line: 1.25rem; /* 20px */
+  --body-medium-ga-spacing: 0.015625rem; /* 0.25px */
+
+  --body-small-ga-size: 0.75rem; /* 12px */
+  --body-small-ga-line: 1rem; /* 16px */
+  --body-small-ga-spacing: 0.025rem; /* 0.4px */
+
+  /* Blue Colors */
+  --color-blue-ga-0: #f5fbff;
+  --color-blue-ga-100: #c5e6fd;
+  --color-blue-ga-200: #98d0f9;
+  --color-blue-ga-300: #70bcf2;
+  --color-blue-ga-400: #50aae9;
+  --color-blue-ga-500: #3898dd;
+  --color-blue-ga-600: #2788cd;
+  --color-blue-ga-700: #1b76b8;
+  --color-blue-ga-800: #1365a0;
+  --color-blue-ga-900: #0e5487;
+
+  /* Black colors */
+
+  --color-black-ga-body: #252525;
+}
