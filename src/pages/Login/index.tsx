@@ -3,7 +3,7 @@ import GoogleIcon from "../../assets/googleIcon.svg";
 import Button from "../../components/Button";
 const Login = () => {
   return (
-    <section className="mt-60 px-6 flex flex-col items-center gap-8 ">
+    <section className="bg-gray-ga mt-60 px-6 flex flex-col items-center gap-8 ">
       <img width={188} src={Logo} alt="Logo glicday" />
       <h1 className="title-large-ga text-center">
         Registro de glicose para pessoas com diabetes tipo 2.
