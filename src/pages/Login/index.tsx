@@ -8,7 +8,7 @@ const Login = () => {
       <h1 className="title-large-ga text-center">
         Registro de glicose para pessoas com diabetes tipo 2.
       </h1>
-      <Button icon={GoogleIcon} label="Entrar com o google" />
+      <Button width={18} icon={GoogleIcon} label="Entrar com o google" />
 
       <div className="title-small-ga text-center">
         <p>Ao fazer o login, você concorda com nossos</p>

@@ -3,9 +3,10 @@ interface IButtonProps {
   label?: string;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
   disable?: boolean;
+  width?: number;
 }
 
-const Button = ({ icon, label, onClick, disable }: IButtonProps) => {
+const Button = ({ icon, label, onClick, disable, width }: IButtonProps) => {
   return (
     <button
       onClick={onClick}
@@ -18,7 +19,7 @@ const Button = ({ icon, label, onClick, disable }: IButtonProps) => {
          `}
     >
       <span className="flex items-center gap-2">
-        {icon && <img width={18} src={icon} alt="Logo do Google" />}
+        {icon && <img width={width} src={icon} alt="Logo do Google" />}
         <span className="label-large-ga text-white mt-0.5">{label}</span>
       </span>
     </button>
