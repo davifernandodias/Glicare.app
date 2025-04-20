@@ -1,9 +1,7 @@
-import About from "./pages/About";
-import Login from "./pages/Login";
-import TermsAndConditions from "./pages/TermsAndConditions";
+import Home from "./pages/Home";
 
 function App() {
-  return <About />;
+  return <Home />;
 }
 
 export default App;
