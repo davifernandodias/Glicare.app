@@ -146,19 +146,4 @@ Tecnologias utilizadas:
 }
 ```
 
-## 🎯 Diagrama de Arquitetura
 
-```mermaid
-flowchart TD
-    A[Frontend Cliente<br/>(React, Flutter, etc)] -->|HTTPS REST<br/>(com JWT)| B(API Spring Boot)
-
-    B --> C[Controller Layer<br/>(Recebe requisições)]
-    B --> D[Authentication Layer<br/>(Registro, Login, JWT)]
-
-    C --> E[Service Layer<br/>(Regras de Negócio)]
-    D --> E
-
-    E --> F[Repository Layer<br/>(Acesso ao Banco)]
-
-    F --> G[(PostgreSQL Database<br/>(Supabase))]
-```
