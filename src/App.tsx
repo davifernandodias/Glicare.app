@@ -1,7 +1,7 @@
-import Home from "./pages/home";
+import {SignIn} from "./pages/sign-in";
 
 function App() {
-  return <Home />;
+  return <SignIn />;
 }
 
 export default App;

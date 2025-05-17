@@ -1,7 +1,7 @@
 import {LogoGlicareSvg} from "@svg/logo-glicare-svg";
 import {GoogleIconSvg} from "@svg/google-icon-svg";
 import Button from '@ui/button';
-const Login = () => {
+export const SignIn = () => {
   return (
     <section className="bg-gray-ga mt-60 px-6 flex flex-col items-center gap-8 ">
       <LogoGlicareSvg width={188} height={66}/>
@@ -20,4 +20,3 @@ const Login = () => {
   );
 };
 
-export default Login;
