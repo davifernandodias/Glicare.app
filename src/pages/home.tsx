@@ -2,7 +2,7 @@ import { LogoGlicareSvg } from '@svg/logo-glicare-svg';
 import { ProfileIconSvg } from '@svg/profile-icon-svg';
 import { AddedIconSvg } from '@svg/added-icon-svg';
 import { AboutIconSvg } from '@svg/about-icon-svg';
-import { Button } from '@components/ui/button';
+import { Button } from '@ui/button';
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen w-screen bg-cover bg-center bg-no-repeat bg-[url(/public/png/background-Glicare.png)] ">

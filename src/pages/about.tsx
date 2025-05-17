@@ -1,16 +1,18 @@
-import LogoGlicare from "../../assets/logo.svg";
+import { Button } from '@ui/button';
+import { ArrowLeftIcon } from '@svg/arrow-left-icon-svg';
+import { LogoGlicareSvg } from '@svg/logo-glicare-svg';
+import { CollaboratorCard } from '@components/collaborator-card';
 
-import ArrowLeft from "../../assets/arrow-left.svg";
 
-import CollaboratorCard from "../../components/CollaboratorCard";
 const About = () => {
   return (
     <section className="bg-gray-ga">
-      <button className="m-2 hover:cursor-pointer">
-        <img src={ArrowLeft} alt="botão voltar" />
-      </button>
+      <Button attr="m-2 hover:cursor-pointer" />
+
+      <ArrowLeftIcon />
       <div className="flex flex-col p-6 items-center">
-        <img src={LogoGlicare} alt="Logo Glicare" />
+
+        <LogoGlicareSvg />
         <h3 className="headline-small-ga my-6">Sobre nós</h3>
         <section className="flex flex-col gap-2 body-small-ga max-w-2xl">
           <p className="text-justify">

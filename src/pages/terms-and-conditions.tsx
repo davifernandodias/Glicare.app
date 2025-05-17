@@ -1,13 +1,13 @@
 import { useState } from "react";
-import ArrowLeft from "../../assets/arrow-left.svg";
-import Button from "../../components/Button";
+import { ArrowLeftIcon } from "@svg/arrow-left-icon-svg";
+import { Button } from "@/components/ui/button";
 const TermsAndConditions = () => {
   const [disable, setDisable] = useState(true);
   return (
     <section className="bg-gray-ga">
-      <button className="m-2 hover:cursor-pointer">
-        <img src={ArrowLeft} alt="botão voltar" />
-      </button>
+      <Button attr="m-2 hover:cursor-pointer">
+        <ArrowLeftIcon />
+      </Button>
       <h3 className="headline-small-ga text-center mx-10">
         Termos de Uso e Politica de Privacidade
       </h3>
@@ -30,7 +30,7 @@ const TermsAndConditions = () => {
         </p>
         <p className="body-medium-ga">
           Pellentesque sit amet tellus fermentum est interdum fringilla dictum
-          quis dui. Sed interdum suscipit lectus, ut maximus purus. 
+          quis dui. Sed interdum suscipit lectus, ut maximus purus.
         </p>
         <p className="label-large-ga">
           4.Donec enim erat, convallis vel pulvinar at, condimentum sed

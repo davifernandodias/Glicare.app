@@ -1,6 +1,7 @@
-import LinkedinIcon from "../../assets/linkedin-icon.svg";
-import Button from "../Button";
-const CollaboratorCard = () => {
+import { Button } from '@ui/button';
+import { LinkedinIconSvg } from '@svg/linkedin-icon-svg';
+
+export const CollaboratorCard = () => {
   return (
     <div className="bg-gray-ga-500 rounded-4xl p-6 max-w-2xs">
       <div className="bg-gray-ga rounded-full w-16 h-16 my-1">
@@ -14,9 +15,7 @@ const CollaboratorCard = () => {
         deleniti, consequatur vero asperiores amet id non quasi eveniet
         quibusdam magnam impedit!
       </p>
-      <Button width={24} icon={LinkedinIcon} label="Linkedin" />
+      <Button width={24} icon={<LinkedinIconSvg />} label="Linkedin" />
     </div>
   );
 };
-
-export default CollaboratorCard;
